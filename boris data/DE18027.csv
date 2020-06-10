@@ -1,0 +1,22 @@
+Observation id,DE18027,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH011057.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH021057.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-22 12:35:37,,,,,,,
+,,,,,,,,
+Description,19-3,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+5.783,G:/Shirley/SUBSTRATE CHOICE/GH011057.MP4,1515.150,23.98,,in syringe,,,START
+605.346,G:/Shirley/SUBSTRATE CHOICE/GH011057.MP4,1515.150,23.98,,in syringe,,,STOP
+605.347,G:/Shirley/SUBSTRATE CHOICE/GH011057.MP4,1515.150,23.98,,leaf jump,,,POINT
+605.347,G:/Shirley/SUBSTRATE CHOICE/GH011057.MP4,1515.150,23.98,,leaves,,,START
+1505.197,G:/Shirley/SUBSTRATE CHOICE/GH021057.MP4,1515.150,23.98,,leaves,,,STOP

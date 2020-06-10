@@ -1,0 +1,29 @@
+Observation id,DE18067,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-17 14:00:54,,,,,,,
+,,,,,,,,
+Description,5-4,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+7.351,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,in syringe,,,START
+15.099,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,in syringe,,,STOP
+15.100,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,on syringe,,,START
+15.370,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,on syringe,,,STOP
+15.371,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock,,,START
+15.371,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock jump,,,POINT
+33.127,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock jump,,,POINT
+65.380,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock jump,,,POINT
+157.627,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock jump,,,POINT
+236.833,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,rock,,,STOP
+236.834,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,wall,,,START
+236.834,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,wall jump,,,POINT
+907.259,G:/Shirley/SUBSTRATE CHOICE/GH010966.MP4,924.800,23.98,,wall,,,STOP

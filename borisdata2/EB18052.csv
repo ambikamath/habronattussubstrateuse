@@ -1,0 +1,20 @@
+Observation id,EB18052,,,,,,,,
+,,,,,,,,,
+Independent variables,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Analysis from,0.000,to,905.205,,,,,,
+Total length (s),905.205,,,,,,,,
+,,,,,,,,,
+Time budget,,,,,,,,,
+subject,behavior,modifiers,number,duration,duration_mean,duration_stdev,inter_duration_mean,inter_duration_stdev,% of total length
+No focal subject,in syringe,-,0,0,0,NA,-,-,-
+No focal subject,on syringe,-,0,0,0,NA,-,-,-
+No focal subject,rock,-,2,868.327,434.163,603.798,31.739,NA,95.9
+No focal subject,leaves,-,0,0,0,NA,-,-,-
+No focal subject,sand,-,1,31.737,31.737,NA,NA,NA,3.5
+No focal subject,rock jump,-,3,0,0,0,446.426,560.956,-
+No focal subject,leaf jump,,0,0,0,NA,NA,NA,-
+No focal subject,sand jump,,0,0,0,NA,NA,NA,-
+No focal subject,wall jump,-,1,0,0,0,NA,NA,-
+No focal subject,wall,-,0,0,0,NA,-,-,-

@@ -1,0 +1,23 @@
+Observation id,MR18057,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH020978.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-18 10:47:48,,,,,,,
+,,,,,,,,
+Description,7-4,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+9.639,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,in syringe,,,START
+50.123,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,in syringe,,,STOP
+50.124,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,on syringe,,,START
+58.798,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,on syringe,,,STOP
+58.799,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,leaves,,,START
+958.145,G:/Shirley/SUBSTRATE CHOICE/GH010978.MP4,965.020,23.98,,leaves,,,STOP

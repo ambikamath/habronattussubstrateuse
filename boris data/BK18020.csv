@@ -1,0 +1,24 @@
+Observation id,BK18020,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH021016.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-18 15:36:27,,,,,,,
+,,,,,,,,
+Description,12-5,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+8.675,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,in syringe,,,START
+608.238,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,in syringe,,,STOP
+608.239,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,on syringe,,,START
+610.166,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,on syringe,,,STOP
+610.167,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,leaf jump,,,POINT
+610.167,G:/Shirley/SUBSTRATE CHOICE/GH011016.MP4,1516.660,23.98,,leaves,,,START
+1510.004,G:/Shirley/SUBSTRATE CHOICE/GH021016.MP4,1516.660,23.98,,leaves,,,STOP

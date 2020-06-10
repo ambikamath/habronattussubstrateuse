@@ -1,0 +1,20 @@
+Observation id,MF18009,,,,,,,,
+,,,,,,,,,
+Independent variables,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Analysis from,0.000,to,913.830,,,,,,
+Total length (s),913.830,,,,,,,,
+,,,,,,,,,
+Time budget,,,,,,,,,
+subject,behavior,modifiers,number,duration,duration_mean,duration_stdev,inter_duration_mean,inter_duration_stdev,% of total length
+No focal subject,in syringe,-,0,0,0,NA,-,-,-
+No focal subject,on syringe,-,0,0,0,NA,-,-,-
+No focal subject,rock,-,2,154.59,77.295,101.552,78.669,NA,16.9
+No focal subject,leaves,-,2,49.394,24.697,5.175,29.273,NA,5.4
+No focal subject,sand,-,0,0,0,NA,-,-,-
+No focal subject,rock jump,-,1,0,0,0,NA,NA,-
+No focal subject,leaf jump,-,2,0,0,0,14.636,NA,-
+No focal subject,sand jump,,0,0,0,NA,NA,NA,-
+No focal subject,wall jump,-,3,0,0,0,31.558,36.869,-
+No focal subject,wall,-,2,696.119,348.059,450.835,33.846,NA,76.2

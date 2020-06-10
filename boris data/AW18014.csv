@@ -1,0 +1,27 @@
+Observation id,AW18014,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH021022.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-18 16:12:37,,,,,,,
+,,,,,,,,
+Description,13-5,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+5.783,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,in syringe,,,START
+63.618,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,in syringe,,,STOP
+63.619,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,sand,,,START
+63.619,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,sand jump,,,POINT
+93.500,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,sand,,,STOP
+93.501,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,on syringe,,,START
+209.171,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,on syringe,,,STOP
+209.172,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,rock,,,START
+209.172,G:/Shirley/SUBSTRATE CHOICE/GH011022.MP4,1113.290,23.98,,rock jump,,,POINT
+963.120,G:/Shirley/SUBSTRATE CHOICE/GH021022.MP4,1113.290,23.98,,rock,,,STOP

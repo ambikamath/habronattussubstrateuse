@@ -1,0 +1,30 @@
+Observation id,CC18030,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH020970.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-17 15:40:50,,,,,,,
+,,,,,,,,
+Description,6-2,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+11.567,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,in syringe,,,START
+190.856,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,in syringe,,,STOP
+190.857,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,on syringe,,,START
+226.522,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,on syringe,,,STOP
+226.523,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,leaf jump,,,POINT
+226.523,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,leaves,,,START
+440.514,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,leaves,,,STOP
+440.515,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,rock,,,START
+440.515,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,rock jump,,,POINT
+468.468,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,rock,,,STOP
+468.469,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,wall,,,START
+468.469,G:/Shirley/SUBSTRATE CHOICE/GH010970.MP4,1130.260,23.98,,wall jump,,,POINT
+1126.745,G:/Shirley/SUBSTRATE CHOICE/GH020970.MP4,1130.260,23.98,,wall,,,STOP

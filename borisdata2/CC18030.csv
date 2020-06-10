@@ -1,0 +1,20 @@
+Observation id,CC18030,,,,,,,,
+,,,,,,,,,
+Independent variables,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Analysis from,0.000,to,1130.260,,,,,,
+Total length (s),1130.260,,,,,,,,
+,,,,,,,,,
+Time budget,,,,,,,,,
+subject,behavior,modifiers,number,duration,duration_mean,duration_stdev,inter_duration_mean,inter_duration_stdev,% of total length
+No focal subject,in syringe,-,1,179.289,179.289,NA,NA,NA,15.9
+No focal subject,on syringe,-,1,35.665,35.665,NA,NA,NA,3.2
+No focal subject,rock,-,1,27.953,27.953,NA,NA,NA,2.5
+No focal subject,leaves,-,1,213.991,213.991,NA,NA,NA,18.9
+No focal subject,sand,-,0,0,0,NA,-,-,-
+No focal subject,rock jump,-,1,0,0,0,NA,NA,-
+No focal subject,leaf jump,-,1,0,0,0,NA,NA,-
+No focal subject,sand jump,,0,0,0,NA,NA,NA,-
+No focal subject,wall jump,-,1,0,0,0,NA,NA,-
+No focal subject,wall,-,1,658.276,658.276,NA,NA,NA,58.2

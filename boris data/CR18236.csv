@@ -1,0 +1,22 @@
+Observation id,CR18236,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH011031.MP4,,,,,,,
+Player #1,G:/Shirley/SUBSTRATE CHOICE/GH021031.MP4,,,,,,,
+,,,,,,,,
+Observation date,2019-01-22 12:47:27,,,,,,,
+,,,,,,,,
+Description,20-2,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Comment,Status,
+5.783,G:/Shirley/SUBSTRATE CHOICE/GH011031.MP4,1240.790,23.98,,in syringe,,,START
+334.482,G:/Shirley/SUBSTRATE CHOICE/GH011031.MP4,1240.790,23.98,,in syringe,,,STOP
+334.483,G:/Shirley/SUBSTRATE CHOICE/GH011031.MP4,1240.790,23.98,,rock,,,START
+334.483,G:/Shirley/SUBSTRATE CHOICE/GH011031.MP4,1240.790,23.98,,rock jump,,,POINT
+1234.675,G:/Shirley/SUBSTRATE CHOICE/GH021031.MP4,1240.790,23.98,,rock,,,STOP
