@@ -1,4 +1,9 @@
 #Final compiled code for analysis of data in Sun et al. Code by Yuheng (Shirley) Sun and Ambika Kamath
+library(lme4)
+library(ggplot2)
+library(nlme)
+
+
 
 #Output from BORIS which lists substrate use as events
 path <- "./boris data"
@@ -253,7 +258,6 @@ hist(dftime$prop)
 
 #So then, what to do about jumps? 
 #
-library(lme4)
 jump.model = glmer(jumps~substrate+(1|ID), data=dftime, family=poisson())
 summary(jump.model)
 
@@ -263,7 +267,6 @@ dftime$substrate=relevel(dftime$substrate, "rock")
 
 #And now, figures time!!
 
-library(ggplot2)
 plot1=ggplot()
 
 plot1+theme_light(20)+geom_bar(aes(x=df$FirstChoice, fill=df$Sex), stat="count", position=position_dodge2(preserve = "single"))+xlab("First Substrate Chosen")+ ylab("Count")+ scale_fill_manual(values=c("#87D0E2", "#7D5495"), name="Sex")+scale_x_discrete(drop=FALSE, labels=c("Leaf Litter", "Rocks", "Sand"))
@@ -274,3 +277,65 @@ plot1+theme_light(20)+geom_bar(aes(x=df$maj, fill=df$Sex), stat="count", positio
 
 
 plot1+theme_light(20)+ geom_bar(aes(x=dftime$firstchoice, y=dftime$time, fill=dftime$substrate), position="fill", stat="identity")+scale_fill_manual(values=c("#82BA4F", "#E89E23", "#F3EA1F"), labels=c("Leaf Litter", "Rocks", "Sand"), name= "Substrate")+xlab("First Substrate Chosen")+ ylab("Proportion of Time")+scale_x_discrete(drop=FALSE, labels=c("Leaf Litter", "Rocks", "Sand"))
+
+
+#finally, analysis and figure for vibration transmission data
+att <- read.csv("attenuation.csv")
+
+#Analysis
+library(nlme)
+test <- lme(RMS..dB. ~ Distance..mm.*Substrate, data = att, random = ~1 | Group)
+anova(test)
+
+#Plot
+#Define summarySE() to calculate standard error
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+  library(plyr)
+  
+  #Calculate lengths
+  length2 <- function (x, na.rm=FALSE) {
+    if (na.rm) sum(!is.na(x))
+    else       length(x)
+  }
+  
+  datac <- ddply(data, groupvars, .drop=.drop,
+                 .fun = function(xx, col) {
+                   c(N    = length2(xx[[col]], na.rm=na.rm),
+                     mean = mean   (xx[[col]], na.rm=na.rm),
+                     sd   = sd     (xx[[col]], na.rm=na.rm)
+                   )
+                 },
+                 measurevar
+  )
+  
+  datac <- plyr::rename(datac, c("mean" = measurevar))
+  
+  datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+  
+  # Calculate t-statistic for confidence interval
+  ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+  datac$ci <- datac$se * ciMult
+  
+  return(datac)
+}
+
+#Output the results to a new list
+tgc <- summarySE(att, measurevar = "RMS..dB.", groupvars = c("Substrate","Distance..mm."))
+
+#Make the figure
+
+ggplot(tgc, aes(x=Distance..mm., y=RMS..dB., colour=Substrate, shape=Substrate)) + 
+  geom_errorbar(aes(ymin=RMS..dB.-se, ymax=RMS..dB.+se), width=.2) +
+  scale_color_manual(values=c("#82BA4F", "#E89E23", "#F3EA1F", "black"))+
+  geom_line(size=2) +
+  geom_point(size=5) +
+  scale_shape_manual(values=c(15, 17, 16, 18))+
+  ylab("Relative dB") + xlab("Distance(mm)") +
+  theme_classic() +
+  theme(axis.text = element_text(size = 15),
+        axis.title = element_text(size = 20),
+        axis.line = element_line(size=1, colour = "black", arrow = arrow(length = unit(0.5, 'cm'))),
+        legend.title = element_text(size=14),
+        legend.text = element_text(size = 12))
+

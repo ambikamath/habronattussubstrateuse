@@ -1,0 +1,18 @@
+Source File Name:	Stick_5
+Signal:	RMS - Vib Velocity - Magnitude
+dB-Reference:	0 dB = 1 m/s
+Band No.:	Entire bandwidth
+
+
+
+Interpolated:	Yes
+Filtered:	Yes
+
+Index	X	Y	Z	Magnitude [m/s]
+1	-0.0703652	0.0133951	-1	0.00205878
+2	-0.0667887	0.0134947	-1	0.00210374
+3	-0.0509065	0.0133355	-1	0.00231615
+4	-0.0304796	0.0135869	-1	0.00247284
+5	-0.0100433	0.0139797	-1	0.00241859
+6	0.0101425	0.0137864	-1	0.00238744
+7	0.070199	0.0143633	-1	0.0026125
